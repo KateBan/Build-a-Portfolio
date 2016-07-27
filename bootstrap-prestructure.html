@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katerina's Portfolio</title>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6"><img src="img/logo.png" class=" title-logo img-responsive" alt="Logo"></div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Katerina Baneva</h1>
+          <h3>Full Stack Ninja</h3>
+        </div>
+      </header>
+      <section class="row">
+        <div class="col-md-12">
+          <hr class="style-four">
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-md-12"><img src="img/projects.png" class="img-responsive" alt="Projects"></div>
+      </section>
+      <section class="row">
+        <div class="col-md-12"><h2 class="text-muted">Featured Work</h2></div>
+      </section>
+      <section class="row text-center">
+        <div class="col-md-6">
+          <img src="img/ruby.png" class="img-responsive center-block" alt="Ruby" data-toggle="modal" data-target="#project1">
+          <h3>ToyCity 4 - Udacidata</h3>
+          <p><a href="https://github.com/KateBan/rbnd-toycity-part4">Link to project</a></p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/D3.png" class="img-responsive center-block" alt="D3" data-toggle="modal" data-target="#project2">
+          <h3>Make Effective Data Visualization</h3>
+          <p><a href="https://github.com/KateBan/Data_Visulaziation_D3">Link to project</a></p>
+        </div>
+      </section>
+      <section class="row text-center">
+        <div class="col-md-6">
+          <img src="img/R.png" class="img-responsive center-block" alt="R" data-toggle="modal" data-target="#project3">
+          <h3>Explore and Summarize Data</h3>
+          <p><a href="https://github.com/KateBan/Explore-and-Summarize-Data">Link to project</a></p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/Python.png" class="img-responsive center-block" alt="Python" data-toggle="modal" data-target="#project4">
+          <h3>Identify Fraud from Enron Email</h3>
+          <p><a href="https://github.com/KateBan/Machine-Learning">Link to project</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Modal -->
+    <section class="modal fade text-justify" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">ToyCity 4 - Udacidata</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/ruby.png">
+            This project shows how you can permanently store the data in a database, and update the database through the app rather than modify the database directly by hand. A special class called Udacidata that maps each Product object to an entry in the ToyCity database. Keeping large amounts of data organized is one of the number one challenges web developers address on a daily basis. The general organization of this project reflects the structure of a tool called ActiveRecord, which is used frequently as a Ruby on Rails developer.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="modal fade text-justify" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Make Effective Data Visualization</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/D3.png">
+            The depicted visualization in the project is a scatterplot that shows how volatile and citric acids affect the quality of both red and white wines. What I wanted to represent is that for red wine both of the acids affect its quality, while there is no connection between quality and the acids for white wine. Also, the values of both acids seem to be mirrored.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="modal fade text-justify" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Explore and Summarize Data</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/R.png">
+            This project investigates the relationship between the ranking of red and white wines quality by human experts and 11 variables resulting from physicochemical tests carried out against the wines.
+            The issue of quality has become increasingly important to the wine industry over the past several decades. Worldwide, an oversupply situation has prevailed, consequently pulling down wine prices and decreasing profitable margins for producers. It has been suggested that the wine industry must vigilantly attend to wine quality, in conjunction to marketing efforts in order to lead the competition. This raises important question as to what is meant by quality regarding wine.
+            Quality may be understood in different ways. Generally, quality in foods and beverages is defined as the ability of a set of inherent characteristics of a product, system or process to fulfill requirements of customers and other interested parties. From the perspective of marketing, with reference to wine, there exist two quality dimensions based on the consumer experiences: the external (grapes, production and marketing) and the internal (pleasure, appearance, gustatory, paradigmatic and potential) quality, the latter being more significant in evaluating the overall wine quality during consumption. However, some marketing studies have defined the concept of quality as a one-dimensional judgment.Perceived quality is a broad overview and exists on a continuum.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="modal fade text-justify" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Explore and Summarize Data</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive center-block" src="img/Python.png">
+            The goal of this project is to train a classifier that can successfully predict who is a person of interest (POI) from the Enron dataset. The Enron corporation is an example of a major corporate fraud that happened in America. As preprocessing to this project, the Enron email and financial data have been combined into a dictionary, where each key-value pair in the dictionary corresponds to one person. The dictionary key is the person's name, and the value is another dictionary, which contains the names of all the features and their values for that person. The features in the data fall into three major types, namely financial features, email features and POI labels. There are 146 key-value pairs in the dictionary, 18 of which are POIs and 128 are not POIs. Also, there are 20 original features and 2 engineered features that I did not used in my algorithm. After manually inspecting the data two outliers were removed 'TOTAL' and 'THE TRAVEL AGENCY IN THE PARK'. Also, all the NaN values were replaced by their associated medians.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
